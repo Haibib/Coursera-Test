@@ -1,0 +1,98 @@
+html{
+	box-sizing: border-box;
+}
+.title{
+		font-size: 2em;
+		margin: 30px;
+	}
+.header{
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+#nav{
+	border: solid 1px black;
+	background-color: #888;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	border-bottom: 2px solid black;
+}
+.navbar-toggler{
+	background-color: #fff;
+}
+.items{
+		background-color: pink;
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		padding:  10px;
+		float: left;
+		box-sizing: border-box;
+		padding-bottom: 15px;
+		margin-bottom: 20px;
+	}
+#header-nav{
+	background-color:  #888;
+	border-radius: 0px;
+	border-width: 0px;
+	float: left;
+	width: 100%;
+
+}
+.container{
+	float:  left;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+.navbar-brand{
+	color: #000;
+	font-size: 30px;
+	margin-left:  10px;
+}
+.navbar-toggler[aria-expanded="true"] {
+  background-color: black;
+  border: solid 2px white;
+}
+.navbar-toggler[aria-expanded="false"] {
+  background-color: white;
+  border: solid 2px black;
+}
+.navbar-toggler[aria-expanded="false"] .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+#brand{
+	float:  left;
+	margin-left: 15%;
+	margin-bottom: 10px;
+}
+.nav-item{
+	border: solid black 2px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px;
+	width:  100vw;
+	margin: 0px;
+	background-color: #fff;
+}
+.nav-link{
+	color: black;
+}
+#nav-list{
+	width:  100vw;
+	margin: 0px;
+}
+#last-one{
+	border-bottom: 500px;
+}
+#collapsable-nav{
+	width:  100vw;
+	margin: 0px;
+}
+@media (min-width: 576px){
+	#nav-list{
+		display: none;
+	}
+}
